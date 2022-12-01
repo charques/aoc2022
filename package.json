@@ -1,0 +1,17 @@
+{
+    "name": "dev",
+    "version": "1.0.0",
+    "description": "Advent of Code 22",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha **/*.js --reporter spec"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "chai": "^4.3.4",
+      "eslint": "^8.4.0",
+      "jshint": "^2.13.1",
+      "mocha": "^9.1.3"
+    }
+  }
