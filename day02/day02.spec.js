@@ -2,7 +2,7 @@ var expect    = require("chai").expect;
 var fs = require("fs");
 var main = require("./main");
 
-describe("Day 0X - Title ", function() {
+describe("Day 02 - Rock Paper Scissors ", function() {
   
   it("test totalScore - input0", function() {
     const file = fs.readFileSync("./day02/input0.txt", "utf-8");
